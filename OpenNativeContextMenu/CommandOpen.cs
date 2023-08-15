@@ -7,10 +7,8 @@ using System.Reflection;
 using EnvDTE;
 using EnvDTE80;
 using Microsoft;
-using Task = System.Threading.Tasks.Task;
 using Microsoft.VisualStudio.Shell;
-using Microsoft.VisualStudio.Shell.Interop;
-using System.Globalization;
+using Task = System.Threading.Tasks.Task;
 
 namespace OpenNativeContextMenu
 {
@@ -137,7 +135,7 @@ namespace OpenNativeContextMenu
             }
             catch (Exception ex)
             {
-                ActivityLog.LogError("OpenContextMenu", ex.ToString());
+                ActivityLog.LogError("OpenNativeContextMenu", ex.ToString());
             }
         }
 

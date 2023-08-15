@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="OpenNativeContextMenu.a03a4520-9708-4391-b523-22f168b4232c" Version="1.0" Language="en-US" Publisher="MetroSoft" />
+        <Identity Id="a03a4520-9708-4391-b523-22f168b4232c" Version="1.0" Language="en-US" Publisher="MetroSoft" />
         <DisplayName>OpenNativeContextMenu</DisplayName>
         <Description xml:space="preserve">Open Native Context Menu With Selected File or Project or Solution.</Description>
-        <License>Resources\LICENSE</License>
+        <License>Resources\LICENSE.txt</License>
         <Icon>Resources\Icon.png</Icon>
         <PreviewImage>Resources\Icon.png</PreviewImage>
         <Tags>ContextMenu,Explorer,SolutionExplorer</Tags>

@@ -38,7 +38,7 @@
 	
   <Symbols>
 	<!-- This is the package guid. -->
-	<GuidSymbol name="guidOpenNativeContextMenuPackage" value="{91c2e240-47ba-46d5-bf66-0e3c40f31a77}" />
+	<GuidSymbol name="guidOpenNativeContextMenuPackage" value="{a03a4520-9708-4391-b523-22f168b4232c}" />
 
 	<!-- This is the guid used to group the menu commands together -->
 	<GuidSymbol name="guidOpenNativeContextMenuPackageCmdSet" value="{fff3af42-25a1-4fdb-9142-b6e0c21ab32c}">

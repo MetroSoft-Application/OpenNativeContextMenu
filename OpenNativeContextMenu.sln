@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenNativeContextMenu", "OpenNativeContextMenu\OpenNativeContextMenu.csproj", "{C8A4608F-852A-4916-A1E8-4D41ED0A88E5}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0EC6186F-32DB-45D5-8A8F-0BD43388CB60} = {0EC6186F-32DB-45D5-8A8F-0BD43388CB60}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenPropertiesDialog", "OpenPropertiesDialog\OpenPropertiesDialog.csproj", "{0EC6186F-32DB-45D5-8A8F-0BD43388CB60}"
 EndProject

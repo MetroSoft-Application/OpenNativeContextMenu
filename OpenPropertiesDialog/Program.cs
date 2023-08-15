@@ -119,14 +119,14 @@ namespace OpenPropertiesDialog
             info.dwHotKey = 0;
             info.hIcon = IntPtr.Zero;
             info.hProcess = IntPtr.Zero;
-
+            // プロパティダイアログ表示
             if (!ShellExecuteEx(ref info))
             {
                 Console.WriteLine("Failed");
                 return;
             };
 
-            // 表示されるまで待つ
+            // プロパティダイアログが表示されるまで待つ
             var hdlList = new List<IntPtr>();
             var path = GetFileNameOrDirectoryName(args[0]);
             while (true)
@@ -138,6 +138,7 @@ namespace OpenPropertiesDialog
                 }
             }
 
+            //プロパティダイアログを閉じるまで待つ
             var anyWindowClosed = false;
             while (true)
             {
@@ -154,8 +155,8 @@ namespace OpenPropertiesDialog
                 {
                     break;
                 }
-                // 1秒ごとにチェック
-                Thread.Sleep(1000);
+                // ディレイ
+                Thread.Sleep(500);
             }
             CloseHandle(info.hProcess);
         }

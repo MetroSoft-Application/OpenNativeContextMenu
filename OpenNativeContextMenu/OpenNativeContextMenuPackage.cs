@@ -31,7 +31,7 @@ namespace OpenNativeContextMenu
         /// <summary>
         /// OpenNativeContextMenuPackage GUID string.
         /// </summary>
-        public const string PackageGuidString = "91c2e240-47ba-46d5-bf66-0e3c40f31a77";
+        public const string PackageGuidString = "a03a4520-9708-4391-b523-22f168b4232c";
 
         #region Package Members
 
