@@ -21,7 +21,7 @@ Project
 
 ## Thanks
 
-The following [source code](https://apathysoftworks.com/ahk/ShellContextMenu.ahk){:target="_blank"} is customized for use.
+The following [source code](https://apathysoftworks.com/ahk/ShellContextMenu.ahk) is customized for use.
 
 ## License
 
