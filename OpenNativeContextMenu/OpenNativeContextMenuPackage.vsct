@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CommandTable xmlns="http://schemas.microsoft.com/VisualStudio/2005-10-18/CommandTable" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <Extern href="stdidcmd.h"/>
+  <Extern href="vsshlids.h"/>
+  <Commands package="guidOpenNativeContextMenuPackage">
+	<Groups>
+	  <Group guid="guidOpenNativeContextMenuPackageCmdSet" id="MyMenuGroup" priority="0x0600">
+		<Parent guid="guidSHLMainMenu" id="IDM_VS_MENU_TOOLS"/>
+	  </Group>
+	</Groups>
+	  <Buttons>
+		  <Button guid="guidOpenNativeContextMenuPackageCmdSet" id="CommandOpenId" priority="0x0100" type="Button">
+			  <Parent guid="guidOpenNativeContextMenuPackageCmdSet" id="MyMenuGroup" />
+			  <Icon guid="guidImages" id="first" />
+			  <Strings>
+				  <ButtonText>OpenContextMenu</ButtonText>
+			  </Strings>
+		  </Button>
+	  </Buttons>
+
+	  <Bitmaps>
+		  <!-- <Bitmap guid="guidImages" href="Resources\CommandOpen.png" usedList="bmpPic1, bmpPic2, bmpPicSearch, bmpPicX, bmpPicArrows, bmpPicStrikethrough"/> -->
+		  <Bitmap guid="guidImages" href="Resources\Icon.png"/>
+	  </Bitmaps>
+  </Commands>
+
+	<CommandPlacements>
+		<CommandPlacement guid="guidOpenNativeContextMenuPackageCmdSet" id="CommandOpenId" priority="0x0500">
+			<Parent guid="guidSHLMainMenu" id="IDG_VS_CTXT_SOLUTION_EXPLORE"/>
+		</CommandPlacement>
+		<CommandPlacement guid="guidOpenNativeContextMenuPackageCmdSet" id="CommandOpenId" priority="0x0500">
+			<Parent guid="guidSHLMainMenu" id="IDG_VS_CTXT_PROJECT_EXPLORE"/>
+		</CommandPlacement>
+		<CommandPlacement guid="guidOpenNativeContextMenuPackageCmdSet" id="CommandOpenId" priority="0x0500">
+			<Parent guid="guidSHLMainMenu" id="IDG_VS_CTXT_ITEM_OPEN"/>
+		</CommandPlacement>
+	</CommandPlacements>
+	
+  <Symbols>
+	<!-- This is the package guid. -->
+	<GuidSymbol name="guidOpenNativeContextMenuPackage" value="{91c2e240-47ba-46d5-bf66-0e3c40f31a77}" />
+
+	<!-- This is the guid used to group the menu commands together -->
+	<GuidSymbol name="guidOpenNativeContextMenuPackageCmdSet" value="{fff3af42-25a1-4fdb-9142-b6e0c21ab32c}">
+	  <IDSymbol name="MyMenuGroup" value="0x1020" />
+	  <IDSymbol name="CommandOpenId" value="0x0100" />
+	</GuidSymbol>
+
+	<GuidSymbol name="guidImages" value="{4cdf4506-2cb3-4975-98bc-51b1d960d20d}" >
+		<IDSymbol name="first" value="1" />
+	</GuidSymbol>
+  </Symbols>
+</CommandTable>
