@@ -10,6 +10,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenNativeContextMenu", "Op
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenPropertiesDialog", "OpenPropertiesDialog\OpenPropertiesDialog.csproj", "{0EC6186F-32DB-45D5-8A8F-0BD43388CB60}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ソリューション項目", "ソリューション項目", "{200A62DD-7972-48A9-86A5-CF42C5B19F7F}"
+	ProjectSection(SolutionItems) = preProject
+		OpenNativeContextMenu\Resources\Example_File.gif = OpenNativeContextMenu\Resources\Example_File.gif
+		README.md = README.md
+		OpenNativeContextMenu\Resources\Example_Project.gif = OpenNativeContextMenu\Resources\Example_Project.gif
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

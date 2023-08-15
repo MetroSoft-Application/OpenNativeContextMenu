@@ -13,7 +13,7 @@
 			  <Parent guid="guidOpenNativeContextMenuPackageCmdSet" id="MyMenuGroup" />
 			  <Icon guid="guidImages" id="first" />
 			  <Strings>
-				  <ButtonText>OpenContextMenu</ButtonText>
+				  <ButtonText>OpenNativeContextMenu</ButtonText>
 			  </Strings>
 		  </Button>
 	  </Buttons>
