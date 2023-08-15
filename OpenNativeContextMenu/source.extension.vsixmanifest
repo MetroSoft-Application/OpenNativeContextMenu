@@ -7,7 +7,7 @@
 		<License>Resources\LICENSE.txt</License>
 		<ReleaseNotes>Resources\CHANGELOG.txt</ReleaseNotes>
 		<Icon>Resources\Icon.png</Icon>
-		<PreviewImage>Resources\Icon.png</PreviewImage>
+		<PreviewImage>Resources\Preview.png</PreviewImage>
 		<Tags>ContextMenu,Explorer,SolutionExplorer</Tags>
 	</Metadata>
 	<Installation>
