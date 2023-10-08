@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="a03a4520-9708-4391-b523-22f168b4232c" Version="1.0.0" Language="en-US" Publisher="MetroSoft-Application" />
+        <Identity Id="a03a4520-9708-4391-b523-22f168b4232c" Version="1.0.1" Language="en-US" Publisher="MetroSoft-Application" />
         <DisplayName>Open Native Context Menu</DisplayName>
         <Description xml:space="preserve">Open native context menu with selected file or project or solution.</Description>
         <License>Resources\LICENSE.txt</License>
