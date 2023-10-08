@@ -26,6 +26,9 @@
 
 	<CommandPlacements>
 		<CommandPlacement guid="guidOpenNativeContextMenuPackageCmdSet" id="CommandOpenId" priority="0x0500">
+			<Parent guid="guidSHLMainMenu" id="IDG_VS_CTXT_FOLDER_EXPLORE"/>
+		</CommandPlacement>
+		<CommandPlacement guid="guidOpenNativeContextMenuPackageCmdSet" id="CommandOpenId" priority="0x0500">
 			<Parent guid="guidSHLMainMenu" id="IDG_VS_CTXT_SOLUTION_EXPLORE"/>
 		</CommandPlacement>
 		<CommandPlacement guid="guidOpenNativeContextMenuPackageCmdSet" id="CommandOpenId" priority="0x0500">
