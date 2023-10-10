@@ -1,6 +1,6 @@
 # OpenNativeContextMenu
 
-Open native context menu with selected file or project or solution.
+Open native context menu with selected file or folder or project or solution.
 
 ## Features
 
@@ -8,7 +8,7 @@ Open native context menu with selected file or project or solution.
 
 ## Usage
 
-1. Select the target file or project or solution.
+1. Select the target file or folder or project or solution.
 2. Select `OpenNativeContexMenu` from the context menu.
 3. The Windows native context menu will appear.
 
